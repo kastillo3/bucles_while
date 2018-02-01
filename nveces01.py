@@ -1,7 +1,10 @@
-# coding: utf-8
+#coding: utf-8
 x=input("introduce un numero")
-i = 0
-while (i<x):
-    i+=1 
-print(input("introduce un numero"))
-
+cont=0
+suma=0
+while (cont<x):
+	aux=input("introduce otro numero")
+	if aux>0:
+		cont+=1
+		suma=suma+aux
+print(suma)
