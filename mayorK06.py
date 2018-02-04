@@ -1,11 +1,15 @@
 #coding: utf-8
-x=input("introduce un numero")
 cont=0
 suma=0
-while (cont<x):
-	aux=input("introduce otro numero")
-	if aux>0:
-		cont+=1
-		suma=suma+aux
-		if suma>=x:
-			print "Programa terminado"
+x=float(input("introduce un numero:"))
+while (x<=0):
+    x=float(input("Error, introduce otro:"))
+
+else:       
+    aux=float(input("introduce otro numero:"))
+    if aux>0:
+        suma=suma+aux
+        if suma>=x:
+            print "Programa terminado"
+
+
