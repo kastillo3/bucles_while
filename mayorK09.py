@@ -7,5 +7,5 @@ print("numeros primos: ", final="")
 for i in range(2, n + 1):
     while copia % i == 0:
         copia = copia // i
-        print(i, end=" ")
+        print(i, final=" ")
 print("Programa terminado")
