@@ -4,8 +4,11 @@ while n <= 1:
 c = n
 
 print("numeros primos: ", final="")
-for i in range(2, n + 1):
+i=2
+while c > 1:
     while c % i == 0:
         c = c // i
-        print(i, final=" ")
-print("Programa terminado")
+        print(i)
+   i +=1
+print(copia)
+print ("programa terminado")
