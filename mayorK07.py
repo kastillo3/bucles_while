@@ -1,3 +1,4 @@
+#coding: utf-8
 minimo = int(input("Escriba un número: "))
 maximo = int(input("Escriba un número mayor que " + str(minimo) + ": "))
 while minimo >= maximo:
