@@ -1,3 +1,4 @@
+#coding: utf-8
 n = int(input("Escriba un número entero mayor que 1: "))
 while n <= 1:
     n = int(input(str(n) + " no es mayor que 1. Inténtelo de nuevo: "))
