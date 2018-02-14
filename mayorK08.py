@@ -1,3 +1,4 @@
+#coding: utf-8
 numero = int(input("Escriba un número par: "))
 while numero %2!= 0:
     numero = int(input(str(numero) + " no es un número par. Inténtelo de nuevo: "))
